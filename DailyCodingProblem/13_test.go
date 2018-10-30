@@ -12,8 +12,8 @@ Given an integer k and a string s, find the length of the longest substring that
 For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb", so your function should return 3.
 */
 
-// TestDCP15 : Runs test for DailyCodingProblem.com Problem 15
-func TestDCP15(t *testing.T) {
+// TestDCP13 : Runs test for DailyCodingProblem.com Problem 15
+func TestDCP13(t *testing.T) {
 	tables := []struct {
 		k int
 		s string
